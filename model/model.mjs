@@ -21,7 +21,7 @@ tblLista.init({
         allowNull:false
     },
  NrRegj:{
-     type:DataTypes.INTEGER,
+     type:DataTypes.STRING,
  },
 NrFletes:{
     type:DataTypes.INTEGER
