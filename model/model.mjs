@@ -77,3 +77,4 @@ tblLista.hasOne(tblBashkeshorti,{foreignKey:' '}) //
 tblLista.hasOne(tblGjCivile,{foreignKey:'IdGjCivile'}) // 
 tblLista.hasOne(tblLidhja,{foreignKey:'IdLidhja'}) // 
 
+sequelize.sync({alter:true})

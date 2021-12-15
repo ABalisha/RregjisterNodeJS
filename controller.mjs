@@ -7,6 +7,7 @@ export const mainController = async (req,res)=> {
                 Mbiemer:req.body.Mbiemri
             }
         })
+        console.log(tblLista.associations)
         res.status(201).json({res1})
     }
     catch(e){
